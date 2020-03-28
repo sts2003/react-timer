@@ -9,7 +9,16 @@
 .timerBox .timerBox__time {
   width: 100%;
   height: 40vh;
-  background-color: aquamarine;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.timerBox .timerBox__time span {
+  font-size: 75px;
+  text-shadow: 2px 3px 7px #474942;
 }
 
 .timerBox .timerBox__record {
@@ -21,5 +30,24 @@
 .timerBox .timerBox__btn {
   width: 100%;
   height: 30vh;
-  background-color: violet;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.timerBox .timerBox__btn input {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+
+  width: 90px;
+  background-color: #7833e6;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
